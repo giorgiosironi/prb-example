@@ -1,5 +1,5 @@
 {
-    "hash": "a955d9c81f9b9d6fea835bbeaa81a8d0",
+    "hash": "ccf323d38d2c3f3730f05004e34d79e7",
     "packages": [
         {
             "name": "andrewsville/php-token-reflection",
@@ -653,33 +653,27 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "5fca55702b4e035b60a7b1cbac538572db47121d"
+                "url": "https://github.com/schmittjoh/PHP-Parser",
+                "reference": "958e1f4e2355ed22245920a8057a3d7c34a0fb4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/5fca55702b4e035b60a7b1cbac538572db47121d",
-                "reference": "5fca55702b4e035b60a7b1cbac538572db47121d",
+                "url": "https://api.github.com/repos/schmittjoh/PHP-Parser/zipball/958e1f4e2355ed22245920a8057a3d7c34a0fb4c",
+                "reference": "958e1f4e2355ed22245920a8057a3d7c34a0fb4c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
             },
-            "time": "2013-03-05 14:42:24",
+            "time": "2012-11-06 00:18:13",
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.9-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "PHPParser": "lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "BSD"
             ],
             "authors": [
                 {
@@ -690,7 +684,10 @@
             "keywords": [
                 "php",
                 "parser"
-            ]
+            ],
+            "support": {
+                "source": "https://github.com/schmittjoh/PHP-Parser/tree/master"
+            }
         },
         {
             "name": "phpcollection/phpcollection",

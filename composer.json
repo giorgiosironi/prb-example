@@ -11,6 +11,10 @@
     {
         "type": "vcs",
         "url": "https://github.com/QafooLabs/php-refactoring-browser"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/schmittjoh/PHP-Parser"
     }
     ],
     "require": {
