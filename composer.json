@@ -1,0 +1,19 @@
+{
+    "name": "giorgiosironi/prb-example",
+    "authors": [
+        {
+            "name": "Giorgio Sironi",
+            "email": "info@giorgiosironi.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/QafooLabs/php-refactoring-browser"
+    }
+    ],
+    "require": {
+        "qafoolabs/php-refactoring-browser": "dev-master"
+    }
+}
