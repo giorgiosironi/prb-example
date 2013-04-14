@@ -3,11 +3,13 @@ namespace MyNamespace;
 
 class MyClass
 {
+    private $numbers;
+
     public function doSomething()
     {
-        $numbers = array();
-        $numbers[] = '42';
-        $result = sprintf('The answer is %s', implode(" or ", $numbers));
+        $this->numbers = array();
+        $this->numbers[] = '42';
+        $result = sprintf('The answer is %s', implode(" or ", $this->numbers));
         return $result;
     }
 }
